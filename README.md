@@ -20,7 +20,8 @@ Apply Statistical model and Machine Learning:
 
 Finally, we apply Machine Learning model to predict the severity of accident base on the condition of weather, the actual weather at the time of accidents like temperature, wind direction, sunrise, sunset, ...\
 Two statistical models will be applied are Logistic Regression and Random Forest. The AUC will be used to determine the accuracy of the model and based on this AUC; we can decide whether we can use this model to detect the severity of the accidents.\
-The predictive results can be used to make it easier for the police to grasp the situation to allocate reasonable human resources to solve problems.
+The predictive results can be used to make it easier for the police to grasp the situation to allocate reasonable human resources to solve problems.\
+
 The dataset contains 3,500,000 rows and 48 attributes (columns).\
 Attributes are severity_map, start time, end time, start latitude, start longitude, distance, city, state, street, county, weather stamptime, zipcode, temperature, humidity, wind, pressure, visibility, wind speed, weather condition, traffic claiming, traffic signal, sunset sunrise, etc.\
 ELT process: Extract- Load-Transform dataset.\
