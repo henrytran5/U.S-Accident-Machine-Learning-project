@@ -7,7 +7,6 @@ Purpose:
 
 Based on the insight of dataset, we can work on data analytics process by Python, R language, Tableau, and Power BI to answer the following questions:
 + What is the trend of number of accidents from USA?
-+
 By breaking down this data by severity of the accident as the capture below, we can see:
 
 - The grey line indicates the total of accidents which are increase year by year
