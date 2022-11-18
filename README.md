@@ -15,7 +15,7 @@ By breaking down this data by severity of the accident as the capture below, we 
 + What is city having the highest number of accidents?
 + How is the distribution of accident by severity?
 + How about the weather impact on the severity of accident?
-+ 
+
 Apply Statistical model and Machine Learning:
 
 Finally, we apply Machine Learning model to predict the severity of accident base on the condition of weather, the actual weather at the time of accidents like temperature, wind direction, sunrise, sunset, ...\
@@ -24,6 +24,7 @@ The predictive results can be used to make it easier for the police to grasp the
 
 The dataset contains 3,500,000 rows and 48 attributes (columns).\
 Attributes are severity_map, start time, end time, start latitude, start longitude, distance, city, state, street, county, weather stamptime, zipcode, temperature, humidity, wind, pressure, visibility, wind speed, weather condition, traffic claiming, traffic signal, sunset sunrise, etc.\
+\
 ELT process: Extract- Load-Transform dataset.\
 Extract: After collect raw dataset from many source locations, we will extract data as dataset can consist of many data types and come from virtually any structured or unstructured source.\
 Load: the transformed data is moved from the staging area into a data storage area, or between many storing software.\
